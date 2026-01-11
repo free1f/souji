@@ -1,0 +1,49 @@
+.background-map-container {
+  position: absolute;
+  left: 2%;
+  right: 0;
+  bottom: 2%;
+  width: 500px;
+  height: 500px;
+  z-index: 0;
+}
+
+.map {
+  background-image: url('../assets/map-treasure.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.section-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  box-sizing: border-box;
+  /* padding: 10% 5% 5% 5%; */
+  width: 100%;
+  /* height: 300px; */
+  /*   word-break: break-all; */
+  text-align: center;
+  width: 90vw;
+  max-width: 50ch;
+}
+
+.border {
+  outline: grey 2px dashed;
+  outline-offset: 5px;
+  border-radius: 10px;
+}
+
+@media (max-width: 300px) or (max-height: 300px) {
+  .button-wrapper button {
+    padding: 2px;
+    border: none;
+  }
+}
