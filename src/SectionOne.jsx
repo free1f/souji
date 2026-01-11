@@ -117,7 +117,7 @@ export default function SectionOne() {
         },
         ease: 'power2.inOut',
         overwrite: 'auto',
-        duration: 4.2
+        duration: 4.2,
       });
     };
 
