@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: yarn build
         env:
-          VITE_BASE: "/"
+          VITE_BASE: "/souji/"
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
